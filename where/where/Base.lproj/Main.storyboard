@@ -169,17 +169,30 @@
         <!--Réglages-->
         <scene sceneID="pqd-xz-JKA">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ZTH-wK-qqx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <viewController id="fqM-wC-Ubj" sceneMemberID="viewController">
+                <viewController id="fqM-wC-Ubj" customClass="SettingsViewController" customModule="where" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SJd-Nv-7lo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bhm-VH-yMk">
+                                <rect key="frame" x="93" y="134" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Go to settings"/>
+                                <connections>
+                                    <action selector="btnPressed:" destination="fqM-wC-Ubj" eventType="touchUpInside" id="Cgu-MS-x9L"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="MHJ-pF-mZ2"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="1up-Ga-d8g"/>
                     <navigationItem key="navigationItem" title="Réglages" id="X7X-S5-vXr"/>
+                    <connections>
+                        <outlet property="btnAction" destination="Bhm-VH-yMk" id="VIj-3m-kAZ"/>
+                    </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZTH-wK-qqx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1593" y="1059"/>
         </scene>

@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B8464DDF23605A51002AF936 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8464DDE23605A51002AF936 /* SettingsViewController.swift */; };
 		B876BDF92360885B00268FE6 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B876BDF82360885B00268FE6 /* Settings.bundle */; };
+		B876BDFB2360947000268FE6 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B876BDFA2360947000268FE6 /* SettingsViewController.swift */; };
 		B8FBCEEF236055EF00E4476B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FBCEEE236055EF00E4476B /* AppDelegate.swift */; };
 		B8FBCEF1236055EF00E4476B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FBCEF0236055EF00E4476B /* SceneDelegate.swift */; };
 		B8FBCEF3236055EF00E4476B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FBCEF2236055EF00E4476B /* FirstViewController.swift */; };
@@ -19,8 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B8464DDE23605A51002AF936 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		B876BDF82360885B00268FE6 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		B876BDFA2360947000268FE6 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		B8FBCEEB236055EF00E4476B /* where.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = where.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8FBCEEE236055EF00E4476B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8FBCEF0236055EF00E4476B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,10 +83,10 @@
 				B8FBCEF2236055EF00E4476B /* FirstViewController.swift */,
 				B8FBCEF4236055EF00E4476B /* SecondViewController.swift */,
 				B8FBCEF6236055EF00E4476B /* Main.storyboard */,
+				B876BDFA2360947000268FE6 /* SettingsViewController.swift */,
 				B8FBCEF9236055F100E4476B /* Assets.xcassets */,
 				B8FBCEFB236055F100E4476B /* LaunchScreen.storyboard */,
 				B8FBCEFE236055F100E4476B /* Info.plist */,
-				B8464DDE23605A51002AF936 /* SettingsViewController.swift */,
 				B876BDF82360885B00268FE6 /* Settings.bundle */,
 			);
 			path = where;
@@ -164,10 +164,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B876BDFB2360947000268FE6 /* SettingsViewController.swift in Sources */,
 				B8FBCEF5236055EF00E4476B /* SecondViewController.swift in Sources */,
 				B8FBCEF3236055EF00E4476B /* FirstViewController.swift in Sources */,
 				B8FBCEEF236055EF00E4476B /* AppDelegate.swift in Sources */,
-				B8464DDF23605A51002AF936 /* SettingsViewController.swift in Sources */,
 				B8FBCEF1236055EF00E4476B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
