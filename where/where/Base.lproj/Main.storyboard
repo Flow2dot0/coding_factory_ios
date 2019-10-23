@@ -72,7 +72,7 @@
         <!--Carte-->
         <scene sceneID="sHG-fJ-FoT">
             <objects>
-                <viewController id="mCg-iK-Nsi" sceneMemberID="viewController">
+                <viewController id="mCg-iK-Nsi" customClass="FirstViewController" customModule="where" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Iff-CM-Pze">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -169,7 +169,6 @@
         <!--Réglages-->
         <scene sceneID="pqd-xz-JKA">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ZTH-wK-qqx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="fqM-wC-Ubj" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SJd-Nv-7lo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -180,6 +179,7 @@
                     <tabBarItem key="tabBarItem" title="Item" id="1up-Ga-d8g"/>
                     <navigationItem key="navigationItem" title="Réglages" id="X7X-S5-vXr"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZTH-wK-qqx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1593" y="1059"/>
         </scene>

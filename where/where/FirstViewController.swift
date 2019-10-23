@@ -9,9 +9,14 @@
 import UIKit
 
 class FirstViewController: UIViewController {
+    
+    var manager = MapDataManager()
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        manager.fetch(string: "https://httpbin.org/headers") { (data) in
+            print("FirstViewController closure")
+        }
         // Do any additional setup after loading the view.
     }
 
