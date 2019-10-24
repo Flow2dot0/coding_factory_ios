@@ -175,14 +175,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bhm-VH-yMk">
-                                <rect key="frame" x="111" y="766" width="193" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Voir les paramètres avancés"/>
-                                <connections>
-                                    <action selector="btnPressed:" destination="fqM-wC-Ubj" eventType="touchUpInside" id="GdT-Ad-5Sc"/>
-                                </connections>
-                            </button>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hSz-rC-BQQ">
                                 <rect key="frame" x="0.0" y="38" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
@@ -242,7 +234,6 @@
                     <tabBarItem key="tabBarItem" title="Réglages" image="briefcase" catalog="system" landscapeImage="briefcase" id="1up-Ga-d8g"/>
                     <navigationItem key="navigationItem" title="Réglages" id="X7X-S5-vXr"/>
                     <connections>
-                        <outlet property="btnAction" destination="Bhm-VH-yMk" id="VIj-3m-kAZ"/>
                         <outlet property="btnMap" destination="99E-FL-v2e" id="zEd-IS-VOD"/>
                         <outlet property="darkMode" destination="RNJ-6H-VZ1" id="EMw-1n-USc"/>
                     </connections>
@@ -254,7 +245,6 @@
         <!--Accueil-->
         <scene sceneID="8aM-FL-CNt">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="OCB-WD-CDS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController id="u3v-qo-kUb" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Accueil" image="house.fill" catalog="system" id="GNo-ET-g1V"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Hg9-JT-yTJ">
@@ -265,6 +255,7 @@
                         <segue destination="mCg-iK-Nsi" kind="relationship" relationship="rootViewController" id="IGP-x9-Hpp"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OCB-WD-CDS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="748" y="-320"/>
         </scene>

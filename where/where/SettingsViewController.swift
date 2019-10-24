@@ -99,8 +99,8 @@ class SettingsViewController: UIViewController {
     }
     
   
-    /*@IBAction func btnPressed(_ sender: Any) {
-        guard let settingsUrl = URL(string: UIApplication.UIApplicationOpenSettingsURLString) else {
+    @IBAction func btnPressed(_ sender: Any) {
+        /*guard let settingsUrl = URL(string: UIApplication.UIApplicationOpenSettingsURLString) else {
             return
         }
 
@@ -108,7 +108,7 @@ class SettingsViewController: UIViewController {
             UIApplication.shared.open(settingsUrl, completionHandler: { (success) in
                 print("Settings opened: \(success)") // Prints true
             })
-        }
-    }*/
+        }*/
+    }
 
 }
