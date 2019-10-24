@@ -22,6 +22,17 @@ class FirstViewController: UIViewController {
         // Do any additional setup after loading the view.
         //lblTitle.text = NSLocalizedString("title_text", comment: "")
         calculateTravelTime(startCoord: self.startCoord, endCoord: self.endCoord)
+        
+        if(SettingsController.isDarkModeEnabled())
+        {
+            if #available(iOS 13.0, *) {
+                overrideUserInterfaceStyle = .dark
+            }
+        }else {
+            if #available(iOS 13.0, *) {
+                overrideUserInterfaceStyle = .light
+            }
+        }
     }
     
     func calculateTravelTime(startCoord: String, endCoord: String) {

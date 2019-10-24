@@ -30,9 +30,7 @@ class SettingsController {
     
     static func isDarkModeEnabled() -> Bool {
         let stg = SettingsController.self;
-        if(stg.isTrue(key: "autoDarkMode")) {
-            return true;
-        }else if(!stg.isTrue(key: "autoDarkMode") && stg.isTrue(key: "darkMode")) {
+        if(!stg.isTrue(key: "autoDarkMode") && stg.isTrue(key: "darkMode") == true) {
             return true;
         }else {
             return false;
