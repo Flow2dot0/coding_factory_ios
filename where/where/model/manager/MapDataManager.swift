@@ -8,6 +8,8 @@
 
 import Foundation
 import Alamofire
+import SwiftyJSON
+
 
 class MapDataManager: NSObject{
     
@@ -16,8 +18,9 @@ class MapDataManager: NSObject{
                 
         Alamofire.request(string).responseJSON { response in
             
+            
             completion(response.data!)
-            print(response)
+            print(response.result)
         }
 
     }

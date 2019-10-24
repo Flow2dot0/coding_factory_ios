@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,8 @@
 		B8FBCEFD236055F100E4476B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8FBCEFB236055F100E4476B /* LaunchScreen.storyboard */; };
 		BEBF12C530FCF7AD08A2AA98 /* Pods_where.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8A899215502A46203BF914 /* Pods_where.framework */; };
 		E97781322360991E0077A91D /* MapDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97781312360991E0077A91D /* MapDataManager.swift */; };
+		E9BEBFFC2360E02100DBE454 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BEBFFB2360E02100DBE454 /* ApiService.swift */; };
+		E9BEBFFE2361063000DBE454 /* CustomApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BEBFFD2361063000DBE454 /* CustomApiService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		B8FBCEFC236055F100E4476B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8FBCEFE236055F100E4476B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E97781312360991E0077A91D /* MapDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDataManager.swift; sourceTree = "<group>"; };
+		E9BEBFFB2360E02100DBE454 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		E9BEBFFD2361063000DBE454 /* CustomApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomApiService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +97,7 @@
 		B8FBCEED236055EF00E4476B /* where */ = {
 			isa = PBXGroup;
 			children = (
-				E9778130236098BD0077A91D /* manager */,
+				E9BEBFFA2360DFFD00DBE454 /* model */,
 				B8464DDD23605990002AF936 /* view */,
 				B8464DDB2360596A002AF936 /* controller */,
 				B8FBCEEE236055EF00E4476B /* AppDelegate.swift */,
@@ -123,8 +127,18 @@
 			isa = PBXGroup;
 			children = (
 				E97781312360991E0077A91D /* MapDataManager.swift */,
+				E9BEBFFB2360E02100DBE454 /* ApiService.swift */,
+				E9BEBFFD2361063000DBE454 /* CustomApiService.swift */,
 			);
 			path = manager;
+			sourceTree = "<group>";
+		};
+		E9BEBFFA2360DFFD00DBE454 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				E9778130236098BD0077A91D /* manager */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,7 +262,9 @@
 				B8FBCEEF236055EF00E4476B /* AppDelegate.swift in Sources */,
 				B8464DDF23605A51002AF936 /* SettingsViewController.swift in Sources */,
 				E97781322360991E0077A91D /* MapDataManager.swift in Sources */,
+				E9BEBFFC2360E02100DBE454 /* ApiService.swift in Sources */,
 				B8FBCEF1236055EF00E4476B /* SceneDelegate.swift in Sources */,
+				E9BEBFFE2361063000DBE454 /* CustomApiService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
