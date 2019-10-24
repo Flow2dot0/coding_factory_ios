@@ -1,0 +1,33 @@
+
+/* Class = "UILabel"; text = "Votre point de départ est :"; ObjectID = "12d-Q2-ByR"; */
+"12d-Q2-ByR.text" = "Votre point de départ est :";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "1up-Ga-d8g"; */
+"1up-Ga-d8g.title" = "Réglage";
+
+/* Class = "UITabBarItem"; title = "Accueil"; ObjectID = "GNo-ET-g1V"; */
+"GNo-ET-g1V.title" = "Accueil";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "PfO-N0-UeY"; */
+"PfO-N0-UeY.title" = "Historique";
+
+/* Class = "UINavigationItem"; title = "Réglages"; ObjectID = "X7X-S5-vXr"; */
+"X7X-S5-vXr.title" = "Réglages";
+
+/* Class = "UITabBarItem"; title = "First"; ObjectID = "acW-dT-cKf"; */
+"acW-dT-cKf.title" = "First";
+
+/* Class = "UITextField"; placeholder = "Arrivée : "; ObjectID = "eFC-YE-5g7"; */
+"eFC-YE-5g7.placeholder" = "Arrivée : ";
+
+/* Class = "UILabel"; text = "Durée :"; ObjectID = "jRc-b7-nwb"; */
+"jRc-b7-nwb.text" = "Durée :";
+
+/* Class = "UITextField"; placeholder = "Départ : "; ObjectID = "qAH-UM-CM2"; */
+"qAH-UM-CM2.placeholder" = "Départ : ";
+
+/* Class = "UINavigationItem"; title = "Carte"; ObjectID = "vft-oo-zS5"; */
+"vft-oo-zS5.title" = "Carte";
+
+/* Class = "UINavigationItem"; title = "Mes trajets"; ObjectID = "yqH-bk-hN7"; */
+"yqH-bk-hN7.title" = "Mes trajets";

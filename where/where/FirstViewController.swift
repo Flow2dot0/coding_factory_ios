@@ -9,6 +9,7 @@
 import UIKit
 
 class FirstViewController: UIViewController {
+    @IBOutlet weak var lblTitle : UILabel!
     
     let startCoord: String = "48.886009%2C2.289127"
     let endCoord: String = "48.896325%2C2.291561"
@@ -17,7 +18,9 @@ class FirstViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view.
+        lblTitle.text = NSLocalizedString("title_text", comment: "")
         calculateTravelTime(startCoord: self.startCoord, endCoord: self.endCoord)
     }
     
