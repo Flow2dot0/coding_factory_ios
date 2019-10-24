@@ -56,10 +56,18 @@ class SettingsViewController: UIViewController {
 
     @IBAction func switchManualDarkPressed(_ sender: Any) {
         if switchManualDark.isOn {
-            overrideUserInterfaceStyle = .dark
+            if #available(iOS 13.0, *) {
+                overrideUserInterfaceStyle = .dark
+            } else {
+                // Fallback on earlier versions
+            }
             SettingsController.set(val: true, key: "darkMode")
         }else {
-            overrideUserInterfaceStyle = .light
+            if #available(iOS 13.0, *) {
+                overrideUserInterfaceStyle = .light
+            } else {
+                // Fallback on earlier versions
+            }
             SettingsController.set(val: false, key: "darkMode")
         }
         
@@ -79,7 +87,11 @@ class SettingsViewController: UIViewController {
             switchManualDark.isEnabled = false;
 
             switchManualDark.setOn(false, animated: true)
-            overrideUserInterfaceStyle = .light
+            if #available(iOS 13.0, *) {
+                overrideUserInterfaceStyle = .light
+            } else {
+                // Fallback on earlier versions
+            }
             SettingsController.set(val: false, key: "darkMode")
 
         }
@@ -116,7 +128,7 @@ class SettingsViewController: UIViewController {
         let fr = UIAlertAction(title: "Français", style: UIAlertAction.Style.default) { _ in
             self.changeLabelText(btn: self.btnLanguage, text: "Français")
             langue = "fr";
-            SettingsController.set(val: langue, key: "langue");
+            SettingsController.set(val: "fr", key: "AppleLanguage");
 
             
         }
@@ -124,8 +136,9 @@ class SettingsViewController: UIViewController {
         let en = UIAlertAction(title: "English", style: UIAlertAction.Style.default) { _ in
             self.changeLabelText(btn: self.btnLanguage, text: "English")
             langue = "en";
-            SettingsController.set(val: langue, key: "langue");
-
+            let path = Bundle.main.path(forResource: "fr", ofType: "lproj")
+            let bundle = Bundle(path: path!)
+            let string = bundle?.localizedString(forKey: "key", value: nil, table: nil)
 
 
         }
@@ -134,6 +147,7 @@ class SettingsViewController: UIViewController {
             self.changeLabelText(btn: self.btnLanguage, text: "Walof")
             langue = "wf";
             
+            SettingsController.set(val: "fr", key: "AppleLanguage");
 
         }
 
@@ -151,8 +165,8 @@ class SettingsViewController: UIViewController {
     }
     
   
-    @IBAction func btnPressed(_ sender: Any) {
-        guard let settingsUrl = URL(string: UIApplication.openSettingsURLString) else {
+    /*@IBAction func btnPressed(_ sender: Any) {
+        guard let settingsUrl = URL(string: UIApplication.UIApplicationOpenSettingsURLString) else {
             return
         }
 
@@ -161,5 +175,5 @@ class SettingsViewController: UIViewController {
                 print("Settings opened: \(success)") // Prints true
             })
         }
-    }
+    } */
 }
