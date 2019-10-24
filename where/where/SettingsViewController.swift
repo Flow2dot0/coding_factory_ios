@@ -40,20 +40,36 @@ class SettingsViewController: UIViewController {
             SettingsController.set(val: false, key: "darkMode")
             switch traitCollection.userInterfaceStyle {
                 case .light, .unspecified:
-                overrideUserInterfaceStyle = .light
+                    if #available(iOS 13.0, *) {
+                        overrideUserInterfaceStyle = .light
+                    } else {
+                        // Fallback on earlier versions
+                }
                 case .dark:
-                overrideUserInterfaceStyle = .dark
+                    if #available(iOS 13.0, *) {
+                        overrideUserInterfaceStyle = .dark
+                    } else {
+                        // Fallback on earlier versions
+                }
 
             }
         }else if(darkMode.selectedSegmentIndex == 1) {
             SettingsController.set(val: false, key: "autoDarkMode")
             SettingsController.set(val: true, key: "darkMode")
-            overrideUserInterfaceStyle = .dark
+            if #available(iOS 13.0, *) {
+                overrideUserInterfaceStyle = .dark
+            } else {
+                // Fallback on earlier versions
+            }
 
         }else {
             SettingsController.set(val: true, key: "autoDarkMode")
             SettingsController.set(val: false, key: "darkMode")
-            overrideUserInterfaceStyle = .light
+            if #available(iOS 13.0, *) {
+                overrideUserInterfaceStyle = .light
+            } else {
+                // Fallback on earlier versions
+            }
 
         }
     }
@@ -83,7 +99,7 @@ class SettingsViewController: UIViewController {
     }
     
   
-    @IBAction func btnPressed(_ sender: Any) {
+    /*@IBAction func btnPressed(_ sender: Any) {
         guard let settingsUrl = URL(string: UIApplication.UIApplicationOpenSettingsURLString) else {
             return
         }
@@ -93,6 +109,6 @@ class SettingsViewController: UIViewController {
                 print("Settings opened: \(success)") // Prints true
             })
         }
-    }
+    }*/
 
 }

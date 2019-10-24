@@ -20,7 +20,7 @@ class FirstViewController: UIViewController {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
-        lblTitle.text = NSLocalizedString("title_text", comment: "")
+        //lblTitle.text = NSLocalizedString("title_text", comment: "")
         calculateTravelTime(startCoord: self.startCoord, endCoord: self.endCoord)
     }
     
