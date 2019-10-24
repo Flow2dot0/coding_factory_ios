@@ -2,37 +2,35 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Title</key>
-	<string>Paramètre de l&apos;application</string>
 	<key>StringsTable</key>
-	<string>Root</string>
+	<string>License</string>
 	<key>PreferenceSpecifiers</key>
 	<array>
 		<dict>
 			<key>Type</key>
-			<string>PSMultiValueSpecifier</string>
-			<key>Title</key>
-			<string>boubou</string>
-			<key>Titles</key>
-			<array/>
-			<key>Key</key>
-			<string>boubou</string>
-			<key>DefaultValue</key>
-			<string>boubou</string>
-		</dict>
-		<dict>
-			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 			<key>Title</key>
-			<string></string>
+			<string>Informations</string>
 		</dict>
 		<dict>
 			<key>Type</key>
-			<string>PSTextFieldSpecifier</string>
+			<string>PSTitleValueSpecifier</string>
 			<key>Title</key>
-			<string>hello</string>
+			<string>Version</string>
 			<key>Key</key>
-			<string>hello</string>
+			<string>version</string>
+			<key>DefaultValue</key>
+			<string>1.0</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>Title</key>
+			<string>Build</string>
+			<key>Key</key>
+			<string>build</string>
+			<key>DefaultValue</key>
+			<string>666</string>
 		</dict>
 	</array>
 </dict>
