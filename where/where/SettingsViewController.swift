@@ -83,7 +83,7 @@ class SettingsViewController: UIViewController {
     }
     
   
-    /*@IBAction func btnPressed(_ sender: Any) {
+    @IBAction func btnPressed(_ sender: Any) {
         guard let settingsUrl = URL(string: UIApplication.UIApplicationOpenSettingsURLString) else {
             return
         }
