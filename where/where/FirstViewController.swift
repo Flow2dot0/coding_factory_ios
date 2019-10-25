@@ -45,14 +45,7 @@ class FirstViewController: UIViewController {
         }
     }
     
-    func calculateTravelTime(startCoord: String, endCoord: String) {
-        CustomApiService.getData(startCoord: startCoord, endCoord: endCoord) { (data) in
-            self.travelTimeDuration = data
-            print(self.travelTimeDuration)
-        //wait for set
-           }
 
-    }
     func setupLocationManager(){
         locationManager.delegate = self
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
@@ -113,13 +106,23 @@ class FirstViewController: UIViewController {
             return CLLocation(latitude: mapView.centerCoordinate.latitude, longitude: mapView.centerCoordinate.longitude)
         }
     
-    func SendData(sender :UIButton) -> String {
+ 
+
+    @IBAction func sendData(_ sender: Any) {
+        
         let result = ResultViewController()
         let tmpFormat = self.latitude+"%2C"+self.longitude
         result.coordEnd = tmpFormat
-        
-        return tmpFormat
+        print("j'envoie")
     }
+//    func SendData(sender :UIButton) -> String {
+//        let result = ResultViewController()
+//        let tmpFormat = self.latitude+"%2C"+self.longitude
+//        result.coordEnd = tmpFormat
+//        print("j'envoie")
+//
+//        return tmpFormat
+//    }
 }
 
 

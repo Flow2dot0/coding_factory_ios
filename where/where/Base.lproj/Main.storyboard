@@ -39,6 +39,7 @@
                                     <color key="titleColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="sendData:" destination="mCg-iK-Nsi" eventType="touchUpInside" id="uMN-rq-6He"/>
                                     <segue destination="ty2-vS-hen" kind="show" id="n22-OA-2oR"/>
                                 </connections>
                             </button>
@@ -104,7 +105,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Arrivée :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A4m-wT-D4E">
-                                <rect key="frame" x="20" y="103" width="81.5" height="23.5"/>
+                                <rect key="frame" x="20" y="103" width="206" height="23.5"/>
                                 <fontDescription key="fontDescription" name="Optima-ExtraBlack" family="Optima" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>

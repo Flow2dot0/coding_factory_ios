@@ -14,7 +14,7 @@ class ApiService {
     
     static func getData(){
         var request = URLRequest(url: customUrl)
-        request.httpMethod = "GET"
+        request.httpMethod = "POST"
         
         let body = "startcoord=48.886009%2C2.289127&endcoord=48.896325%2C2.291561&time=2014-11-06T19%3A00%3A02-0500&time_type=arrival&key=6c69c29aee0df15279aac830461a2976"
         request.httpBody = body.data(using: .utf8)

@@ -38,6 +38,7 @@ class ResultViewController: UIViewController {
     }
     
     override func viewWillAppear(_ animated: Bool) {
+        print("jinit")
         calculateTravelTime(startCoord: self.startCoord, endCoord: self.coordEnd)
     }
     
@@ -45,6 +46,7 @@ class ResultViewController: UIViewController {
         CustomApiService.getData(startCoord: startCoord, endCoord: endCoord) { (data) in
             self.travelTimeDuration = data
             self.duration = (data as? String)!
+            print( self.duration )
         //wait for set
            }
 
