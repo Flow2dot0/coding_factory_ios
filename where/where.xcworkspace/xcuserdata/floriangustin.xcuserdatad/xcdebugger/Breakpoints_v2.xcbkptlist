@@ -3,4 +3,99 @@
    uuid = "A4842D98-D3DA-4391-BD38-0746CB57A053"
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6EB32198-C4EF-4348-8A9B-E66BFA8E79B7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "where/ResultViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "6EB32198-C4EF-4348-8A9B-E66BFA8E79B7 - 9568e90735c96dcf"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "where.ResultViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; where.ResultViewController"
+                  moduleName = "where"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/floriangustin/Desktop/coding_factory_ios/where/where/ResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "6EB32198-C4EF-4348-8A9B-E66BFA8E79B7 - f3c222b8fd4604bb"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "where.ResultViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; where.ResultViewController"
+                  moduleName = "where"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/floriangustin/Desktop/coding_factory_ios/where/where/ResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "182">
+               </Location>
+               <Location
+                  uuid = "6EB32198-C4EF-4348-8A9B-E66BFA8E79B7 - 6cdd01d94094b998"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "where.ResultViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;where.ResultViewController&gt;"
+                  moduleName = "where"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/floriangustin/Desktop/coding_factory_ios/where/where/ResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "6EB32198-C4EF-4348-8A9B-E66BFA8E79B7 - 7ef82b0bcab05bba"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "where.ResultViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;where.ResultViewController&gt;"
+                  moduleName = "where"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/floriangustin/Desktop/coding_factory_ios/where/where/ResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "119">
+               </Location>
+               <Location
+                  uuid = "6EB32198-C4EF-4348-8A9B-E66BFA8E79B7 - 9279128e744d56d5"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "where.ResultViewController.__deallocating_deinit"
+                  moduleName = "where"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/floriangustin/Desktop/coding_factory_ios/where/where/ResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

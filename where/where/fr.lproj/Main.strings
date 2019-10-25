@@ -1,6 +1,6 @@
 
 /* Class = "UILabel"; text = "Votre point de départ est :"; ObjectID = "12d-Q2-ByR"; */
-"12d-Q2-ByR.text" = "Votre point de départ est :";
+"12d-Q2-ByR.text" = "Choisissez une destination :";
 
 /* Class = "UITabBarItem"; title = "Item"; ObjectID = "1up-Ga-d8g"; */
 "1up-Ga-d8g.title" = "Réglage";
