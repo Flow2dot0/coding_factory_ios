@@ -1,15 +1,15 @@
 
 /* Class = "UILabel"; text = "Choisissez une destination"; ObjectID = "12d-Q2-ByR"; */
-"12d-Q2-ByR.text" = "Sa yonn fileu Tambalé :";
+"12d-Q2-ByR.text" = "Choose a destination";
 
 /* Class = "UILabel"; text = "17 minutes"; ObjectID = "1hU-3r-AhA"; */
-"1hU-3r-AhA.text" = "17 waxtu";
+"1hU-3r-AhA.text" = "17 minutes";
 
 /* Class = "UITabBarItem"; title = "Réglages"; ObjectID = "1up-Ga-d8g"; */
-"1up-Ga-d8g.title" = "Déffare";
+"1up-Ga-d8g.title" = "Settings";
 
 /* Class = "UILabel"; text = "Départ :"; ObjectID = "2v1-Vi-f8j"; */
-"2v1-Vi-f8j.text" = "Tambalé :";
+"2v1-Vi-f8j.text" = "Start :";
 
 /* Class = "UISegmentedControl"; 99E-FL-v2e.segmentTitles[0] = "2D"; ObjectID = "99E-FL-v2e"; */
 "99E-FL-v2e.segmentTitles[0]" = "2D";
@@ -18,51 +18,49 @@
 "99E-FL-v2e.segmentTitles[1]" = "3D";
 
 /* Class = "UISegmentedControl"; 99E-FL-v2e.segmentTitles[2] = "Satellite"; ObjectID = "99E-FL-v2e"; */
-"99E-FL-v2e.segmentTitles[2]" = "Antenne bi";
+"99E-FL-v2e.segmentTitles[2]" = "Satellite";
 
 /* Class = "UILabel"; text = "Arrivée :"; ObjectID = "A4m-wT-D4E"; */
-"A4m-wT-D4E.text" = "Yeksi :";
+"A4m-wT-D4E.text" = "Arrival :";
 
 /* Class = "UILabel"; text = "Map"; ObjectID = "Ceg-yq-Gow"; */
-"Ceg-yq-Gow.text" = "Med";
+"Ceg-yq-Gow.text" = "Map";
 
 /* Class = "UITabBarItem"; title = "Accueil"; ObjectID = "GNo-ET-g1V"; */
-"GNo-ET-g1V.title" = "Keur";
+"GNo-ET-g1V.title" = "Home";
 
 /* Class = "UILabel"; text = "Mode sombre"; ObjectID = "I3J-3a-zOv"; */
-"I3J-3a-zOv.text" = "Guoudi";
+"I3J-3a-zOv.text" = "Dark mode";
 
 /* Class = "UISegmentedControl"; RNJ-6H-VZ1.segmentTitles[0] = "Auto"; ObjectID = "RNJ-6H-VZ1"; */
-"RNJ-6H-VZ1.segmentTitles[0]" = "Mélokanne";
+"RNJ-6H-VZ1.segmentTitles[0]" = "Automatic";
 
 /* Class = "UISegmentedControl"; RNJ-6H-VZ1.segmentTitles[1] = "Sombre"; ObjectID = "RNJ-6H-VZ1"; */
-"RNJ-6H-VZ1.segmentTitles[1]" = "Guoudi";
+"RNJ-6H-VZ1.segmentTitles[1]" = "Dark";
 
 /* Class = "UISegmentedControl"; RNJ-6H-VZ1.segmentTitles[2] = "Clair"; ObjectID = "RNJ-6H-VZ1"; */
-"RNJ-6H-VZ1.segmentTitles[2]" = "Laire";
+"RNJ-6H-VZ1.segmentTitles[2]" = "Light";
 
 /* Class = "UILabel"; text = "Coding Factory, 18 avenue Champerret"; ObjectID = "VgN-G4-6tx"; */
 "VgN-G4-6tx.text" = "Coding Factory, 18 avenue Champerret";
 
 /* Class = "UINavigationItem"; title = "Réglages"; ObjectID = "X7X-S5-vXr"; */
-"X7X-S5-vXr.title" = "Samay matoukay";
+"X7X-S5-vXr.title" = "Settings";
 
 /* Class = "UIButton"; normalTitle = "Calculer le trajet"; ObjectID = "k0h-3a-IoV"; */
-"k0h-3a-IoV.normalTitle" = "Waxtu :";
+"k0h-3a-IoV.normalTitle" = "Calculate time";
 
 /* Class = "UILabel"; text = "Des changements nécessite un redémarrage de l'application"; ObjectID = "lU5-yM-Ojn"; */
-"lU5-yM-Ojn.text" = "Bouniou défaraté , fow gnou talate application bi";
+"lU5-yM-Ojn.text" = "Changes require a restart of the application";
 
 /* Class = "UILabel"; text = "Coding Factory, 18 avenue Champerret"; ObjectID = "pFm-9a-oNc"; */
 "pFm-9a-oNc.text" = "Coding Factory, 18 avenue Champerret";
 
 /* Class = "UINavigationItem"; title = "Mes préférences"; ObjectID = "ply-Ts-9Jo"; */
-"ply-Ts-9Jo.title" = "Déffare yi";
+"ply-Ts-9Jo.title" = "Settings";
 
 /* Class = "UILabel"; text = "Durée estimée :"; ObjectID = "rBK-zl-Rjx"; */
-"rBK-zl-Rjx.text" = "Waxtu dokhinbi :";
+"rBK-zl-Rjx.text" = "Estimated time :";
 
 /* Class = "UINavigationItem"; title = "Carte"; ObjectID = "vft-oo-zS5"; */
-"vft-oo-zS5.title" = "Med";
-
-
+"vft-oo-zS5.title" = "Map";

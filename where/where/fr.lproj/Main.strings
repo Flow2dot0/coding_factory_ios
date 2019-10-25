@@ -1,33 +1,67 @@
 
-/* Class = "UILabel"; text = "Votre point de départ est :"; ObjectID = "12d-Q2-ByR"; */
-"12d-Q2-ByR.text" = "Choisissez une destination :";
+/* Class = "UILabel"; text = "Choisissez une destination"; ObjectID = "12d-Q2-ByR"; */
+"12d-Q2-ByR.text" = "Choisir une destination";
 
-/* Class = "UITabBarItem"; title = "Item"; ObjectID = "1up-Ga-d8g"; */
-"1up-Ga-d8g.title" = "Réglage";
+/* Class = "UILabel"; text = "17 minutes"; ObjectID = "1hU-3r-AhA"; */
+"1hU-3r-AhA.text" = "17 minutes";
+
+/* Class = "UITabBarItem"; title = "Réglages"; ObjectID = "1up-Ga-d8g"; */
+"1up-Ga-d8g.title" = "Réglages";
+
+/* Class = "UILabel"; text = "Départ :"; ObjectID = "2v1-Vi-f8j"; */
+"2v1-Vi-f8j.text" = "Départ :";
+
+/* Class = "UISegmentedControl"; 99E-FL-v2e.segmentTitles[0] = "2D"; ObjectID = "99E-FL-v2e"; */
+"99E-FL-v2e.segmentTitles[0]" = "2D";
+
+/* Class = "UISegmentedControl"; 99E-FL-v2e.segmentTitles[1] = "3D"; ObjectID = "99E-FL-v2e"; */
+"99E-FL-v2e.segmentTitles[1]" = "3D";
+
+/* Class = "UISegmentedControl"; 99E-FL-v2e.segmentTitles[2] = "Satellite"; ObjectID = "99E-FL-v2e"; */
+"99E-FL-v2e.segmentTitles[2]" = "Satellite";
+
+/* Class = "UILabel"; text = "Arrivée :"; ObjectID = "A4m-wT-D4E"; */
+"A4m-wT-D4E.text" = "Arrivée :";
+
+/* Class = "UILabel"; text = "Map"; ObjectID = "Ceg-yq-Gow"; */
+"Ceg-yq-Gow.text" = "Carte";
 
 /* Class = "UITabBarItem"; title = "Accueil"; ObjectID = "GNo-ET-g1V"; */
 "GNo-ET-g1V.title" = "Accueil";
 
-/* Class = "UITabBarItem"; title = "Item"; ObjectID = "PfO-N0-UeY"; */
-"PfO-N0-UeY.title" = "Historique";
+/* Class = "UILabel"; text = "Mode sombre"; ObjectID = "I3J-3a-zOv"; */
+"I3J-3a-zOv.text" = "Mode sombre";
+
+/* Class = "UISegmentedControl"; RNJ-6H-VZ1.segmentTitles[0] = "Auto"; ObjectID = "RNJ-6H-VZ1"; */
+"RNJ-6H-VZ1.segmentTitles[0]" = "Auto";
+
+/* Class = "UISegmentedControl"; RNJ-6H-VZ1.segmentTitles[1] = "Sombre"; ObjectID = "RNJ-6H-VZ1"; */
+"RNJ-6H-VZ1.segmentTitles[1]" = "Sombre";
+
+/* Class = "UISegmentedControl"; RNJ-6H-VZ1.segmentTitles[2] = "Clair"; ObjectID = "RNJ-6H-VZ1"; */
+"RNJ-6H-VZ1.segmentTitles[2]" = "Claire";
+
+/* Class = "UILabel"; text = "Coding Factory, 18 avenue Champerret"; ObjectID = "VgN-G4-6tx"; */
+"VgN-G4-6tx.text" = "Coding Factory, 18 avenue Champerret";
 
 /* Class = "UINavigationItem"; title = "Réglages"; ObjectID = "X7X-S5-vXr"; */
-"X7X-S5-vXr.title" = "Réglages";
+"X7X-S5-vXr.title" = "Mes préférences";
 
-/* Class = "UITabBarItem"; title = "First"; ObjectID = "acW-dT-cKf"; */
-"acW-dT-cKf.title" = "First";
+/* Class = "UIButton"; normalTitle = "Calculer le trajet"; ObjectID = "k0h-3a-IoV"; */
+"k0h-3a-IoV.normalTitle" = "Calculer le trajet";
 
-/* Class = "UITextField"; placeholder = "Arrivée : "; ObjectID = "eFC-YE-5g7"; */
-"eFC-YE-5g7.placeholder" = "Arrivée : ";
+/* Class = "UILabel"; text = "Des changements nécessite un redémarrage de l'application"; ObjectID = "lU5-yM-Ojn"; */
+"lU5-yM-Ojn.text" = "Des changement nécessites le redémarage de l'application";
 
-/* Class = "UILabel"; text = "Durée :"; ObjectID = "jRc-b7-nwb"; */
-"jRc-b7-nwb.text" = "Durée :";
+/* Class = "UILabel"; text = "Coding Factory, 18 avenue Champerret"; ObjectID = "pFm-9a-oNc"; */
+"pFm-9a-oNc.text" = "Coding Factory, 18 avenue Champerret";
 
-/* Class = "UITextField"; placeholder = "Départ : "; ObjectID = "qAH-UM-CM2"; */
-"qAH-UM-CM2.placeholder" = "Départ : ";
+/* Class = "UINavigationItem"; title = "Mes préférences"; ObjectID = "ply-Ts-9Jo"; */
+"ply-Ts-9Jo.title" = "Réglages";
+
+/* Class = "UILabel"; text = "Durée estimée :"; ObjectID = "rBK-zl-Rjx"; */
+"rBK-zl-Rjx.text" = "Temps du trajet :";
 
 /* Class = "UINavigationItem"; title = "Carte"; ObjectID = "vft-oo-zS5"; */
 "vft-oo-zS5.title" = "Carte";
 
-/* Class = "UINavigationItem"; title = "Mes trajets"; ObjectID = "yqH-bk-hN7"; */
-"yqH-bk-hN7.title" = "Mes trajets";

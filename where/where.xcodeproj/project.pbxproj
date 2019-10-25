@@ -28,6 +28,9 @@
 /* Begin PBXFileReference section */
 		3F8A899215502A46203BF914 /* Pods_where.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_where.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BC71DC1C15D6EF4AF864A56 /* Pods-where.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-where.debug.xcconfig"; path = "Target Support Files/Pods-where/Pods-where.debug.xcconfig"; sourceTree = "<group>"; };
+		606171092362DE8000F73998 /* en-AU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-AU"; path = "en-AU.lproj/Main.strings"; sourceTree = "<group>"; };
+		6061710A2362DE8100F73998 /* en-AU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-AU"; path = "en-AU.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		6061710B2362DE8100F73998 /* en-AU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-AU"; path = "en-AU.lproj/Localisation.strings"; sourceTree = "<group>"; };
 		60E1A6B52361A74100461E65 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
 		60E1A6B62361A74100461E65 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		60E1A6B82361A77E00461E65 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
@@ -203,6 +206,7 @@
 				Base,
 				fr,
 				"en-GB",
+				"en-AU",
 			);
 			mainGroup = B8FBCEE2236055EF00E4476B;
 			productRefGroup = B8FBCEEC236055EF00E4476B /* Products */;
@@ -298,6 +302,7 @@
 				60E1A6BE2361A86E00461E65 /* en */,
 				60E1A6C12361A89500461E65 /* en-GB */,
 				60E1A6C22361C87E00461E65 /* fr */,
+				6061710B2362DE8100F73998 /* en-AU */,
 			);
 			name = Localisation.strings;
 			sourceTree = "<group>";
@@ -309,6 +314,7 @@
 				60E1A6B52361A74100461E65 /* fr */,
 				60E1A6BA2361A7D000461E65 /* en */,
 				60E1A6C32361CAF000461E65 /* en-GB */,
+				606171092362DE8000F73998 /* en-AU */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -319,6 +325,7 @@
 				B8FBCEFC236055F100E4476B /* Base */,
 				60E1A6B62361A74100461E65 /* fr */,
 				60E1A6B82361A77E00461E65 /* en-GB */,
+				6061710A2362DE8100F73998 /* en-AU */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
