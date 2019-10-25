@@ -43,7 +43,7 @@
 		B8FBCEEB236055EF00E4476B /* where.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = where.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8FBCEEE236055EF00E4476B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8FBCEF0236055EF00E4476B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B8FBCEF2236055EF00E4476B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		B8FBCEF2236055EF00E4476B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FirstViewController.swift; path = /Users/lievredoryan/Documents/coding_factory_ios/where/where/FirstViewController.swift; sourceTree = "<absolute>"; };
 		B8FBCEF4236055EF00E4476B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		B8FBCEF7236055EF00E4476B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B8FBCEF9236055F100E4476B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
